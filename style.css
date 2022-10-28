@@ -1,0 +1,257 @@
+html,body {
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 1024px 768px;
+}
+
+.titolo {
+  width: 1024px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+#piccoloprincipe {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 50rem;
+}
+
+#sottotitolo {
+  width: 100%;
+  max-width: 10rem;
+}
+
+
+.pulsante1 {
+  width: 1024px;
+  height: 668px;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+
+.immagine1 {
+  padding-top: 0;
+  width: 100%;
+  width: 1/3;
+  display: block;
+}
+.immagine2 {
+  padding-top: 0;
+  width: 100%;
+  width: 1/3;
+  display: none;
+}
+#cambioimmagine {
+}
+
+
+.home1 {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 960px;
+  width: 5%;
+  position: block;
+}
+.home2 {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 960px;
+  width: 5%;
+  display: none;
+}
+
+#cambioimmagine:hover .home1 {
+     display: none;
+}
+#cambioimmagine:hover .home2 {
+     display: block;
+}
+
+.home3 {
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 3%;
+  position: block;
+}
+.home4 {
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 3%;
+  display: none;
+}
+
+#cambioimmagine:hover .home3 {
+     display: none;
+}
+#cambioimmagine:hover .home4 {
+     display: block;
+}
+
+#cambioimmagine:hover .immagine1 {
+     display: none;
+}
+#cambioimmagine:hover .immagine2 {
+     display: block;
+}
+
+.immagine3 {
+  padding-top: 150px;
+  width: 100%;
+  max-width: 1/3;
+  display: block;
+}
+.immagine4 {
+  padding-top: 150px;
+  width: 100%;
+  max-width: 1/3;
+  display: none;
+}
+#cambioimmagine {
+}
+#cambioimmagine:hover .immagine3 {
+     display: none;
+}
+#cambioimmagine:hover .immagine4 {
+     display: block;
+}
+
+.immagine5 {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1/3;
+      display: block;
+}
+.immagine6 {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1/3;
+      display: none;
+}
+#cambioimmagine {
+}
+#cambioimmagine:hover .immagine5 {
+     display: none;
+}
+#cambioimmagine:hover .immagine6 {
+     display: block;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  align-items: center;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next  {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 66px;
+  height: 51px;
+  margin-top: -22px;
+  display: block;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 66px;
+  height: 51px;
+  margin-top: -22px;
+  display: none;
+}
+
+/* Position the "next button" to the right */
+.next, .next2 {
+  right: 0;
+}
+
+#cambioimmagine {
+}
+#cambioimmagine:hover .next {
+     display: none;
+}
+#cambioimmagine:hover .next2 {
+     display: block;
+}
+
+#cambioimmagine {
+}
+#cambioimmagine:hover .prev {
+     display: none;
+}
+#cambioimmagine:hover .prev2 {
+     display: block;
+}
+
+
+
+
+
+
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover #indietro {
+  display: none;
+  }
+.prev2:hover #avanti {
+    display: block;
+    }
+
+.next2:hover #avanti {
+  display: none;
+  }
+.next2:hover #indietro {
+    display: block;
+    }
+
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
